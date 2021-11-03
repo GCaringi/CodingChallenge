@@ -1,0 +1,82 @@
+/*Imposto il background della pagina */
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+
+/*Descrivo il container per come lo voglio, dimensione, padding, margini e sfondo*/
+.container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding-top: 4%;
+  padding-bottom: 6%;
+  font-family: arial;
+}
+
+/*Qui procedo a descrivere prima i tag semantici, e poi vado più a fondo tra i singoli elementi figli dei tag*/
+header {
+  text-align: center;
+}
+
+#logo {
+  width: 250px;
+  margin-bottom: 1%;
+}
+
+#motto {
+  margin: auto;
+  color: #00DD01;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+nav {
+  margin: auto;
+  text-align: center;
+  background-color: #00DD01;
+  line-height: 40px;
+  width: 900px;
+}
+
+main {
+  color: white;
+  padding-left: 5%;
+}
+
+.element1, .elemnent2, .element3{
+  line-height: 20px;
+}
+
+h2{
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.chargebar1 {
+  width: 280px;
+  height: 28px;
+  background-color: #F5B453;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.chargebar2 {
+  width: 500px;;
+  height: 28px;
+  background-color: #00DD01;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.chargebar3 {
+  width: 150px;
+  height: 28px;
+  background-color: #BE4141;
+  border-radius: 10px;
+  margin-top: 10px;
+}
